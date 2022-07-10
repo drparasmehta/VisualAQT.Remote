@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="blue1">#8681F7</color>
+    <color name="blue2">#19FCDA</color>
+    <color name="blue25">#D9F7F2</color>
+    <color name="green1">#CCF781</color>
+    <color name="grey05">#ACA899</color>
+    <color name="orange4">#F7BE45</color>
+    <color name="orange5">#F7D896</color>
+    <color name="red1">#F7C181</color>
+    <color name="white1">#FFFFFF</color>
+    <color name="white2">#FFFFFF</color>
+    <color name="yellow1">#F9E60E</color>
+    <color name="yellow2">#F9F89D</color>
+    <string name="app_name">VisualAQT_Remote</string>
+    <string name="hello">Hello World, VisualAQT_RemoteActivity!</string>
+    <style name="ButtonFontStyle">
+        <item name="android:textSize">16dp</item>
+    </style>
+</resources>

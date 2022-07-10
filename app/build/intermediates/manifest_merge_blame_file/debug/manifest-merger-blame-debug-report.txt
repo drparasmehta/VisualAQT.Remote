@@ -1,0 +1,68 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.visualaqt.remote"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:7:5-44
+8        android:minSdkVersion="17"
+8-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:7:15-41
+9        android:targetSdkVersion="31" />
+9-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:7:5-44
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:9:9-85
+11-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:9:26-82
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:10:5-78
+12-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:10:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:11:5-75
+13-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:11:22-73
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:12:5-66
+14-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:12:22-64
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+15-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:13:5-85
+15-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:13:22-83
+16    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+16-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:14:5-78
+16-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:14:22-76
+17
+18    <application
+18-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:16:5-30:19
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:17:9-45
+21        android:label="@string/app_name"
+21-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:18:9-41
+22        android:testOnly="true" >
+23        <activity
+23-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:19:9-29:20
+24            android:name="com.visualaqt.remote.VisualAQT_RemoteActivity"
+24-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:20:13-53
+25            android:exported="true"
+25-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:21:13-36
+26            android:label="VisualAQT Remote" >
+26-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:22:13-45
+27            <intent-filter>
+27-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:23:13-28:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:24:17-69
+28-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:24:25-66
+29
+30                <category android:name="android.intent.category.HOME" />
+30-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:25:17-73
+30-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:25:27-70
+31                <category android:name="android.intent.category.DEFAULT" />
+31-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:26:7-66
+31-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:26:17-63
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:27:17-77
+32-->P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\AndroidManifest.xml:27:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>

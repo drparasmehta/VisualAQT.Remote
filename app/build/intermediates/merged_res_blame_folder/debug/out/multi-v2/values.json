@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.visualaqt.remote.app-mergeDebugResources-3:/values/values.xml",
+            "map": [
+                {
+                    "source": "P:\\Android\\AndroidStudioProjects\\VisualAQT.Remote\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "15,13,7,8,14,9,5,6,12,10,11,3,4",
+                        "startColumns": "1,4,4,4,1,4,4,4,4,4,4,4,4",
+                        "startOffsets": "557,480,231,272,518,314,145,188,440,356,398,59,102",
+                        "endColumns": "36,39,39,40,37,40,41,41,38,40,40,41,41",
+                        "endOffsets": "592,515,266,308,554,350,182,225,474,392,434,96,139"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,135,175,216,257,298,340,382,421,462,503,545",
+                        "endColumns": "39,39,39,40,40,40,41,41,38,40,40,41,41",
+                        "endOffsets": "90,130,170,211,252,293,335,377,416,457,498,540,582"
+                    }
+                },
+                {
+                    "source": "P:\\Android\\AndroidStudioProjects\\VisualAQT.Remote\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "133,59,190",
+                        "endLines": "4,3,8",
+                        "endColumns": "53,72,12",
+                        "endOffsets": "182,127,285"
+                    },
+                    "to": {
+                        "startLines": "15,16,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "587,641,714",
+                        "endLines": "15,16,19",
+                        "endColumns": "53,72,12",
+                        "endOffsets": "636,709,807"
+                    }
+                }
+            ]
+        }
+    ]
+}

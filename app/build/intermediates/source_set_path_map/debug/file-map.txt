@@ -1,0 +1,8 @@
+com.visualaqt.remote.app-pngs-0 P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\build\generated\res\pngs\debug
+com.visualaqt.remote.app-resValues-1 P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\build\generated\res\resValues\debug
+com.visualaqt.remote.app-rs-2 P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\build\generated\res\rs\debug
+com.visualaqt.remote.app-mergeDebugResources-3 P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.visualaqt.remote.app-mergeDebugResources-4 P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.visualaqt.remote.app-merged_res-5 P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\build\intermediates\merged_res\debug
+com.visualaqt.remote.app-debug-6 P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\debug\res
+com.visualaqt.remote.app-main-7 P:\Android\AndroidStudioProjects\VisualAQT.Remote\app\src\main\res

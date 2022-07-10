@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/mnuIshihara" android:titleCondensed="Ishihara" android:title="Color Vision" android:checkable="false"></item>
+    <item android:id="@+id/mnuOtherTests" android:titleCondensed="Other Tests" android:title="Other Tests" android:checkable="false"></item>
+    <item android:id="@+id/mnuEducation" android:titleCondensed="Education" android:title="Patient education" android:checkable="false"></item>
+    <item android:id="@+id/mnuShow66" android:titleCondensed="Show 6/6" android:title="Show 6/6" android:checked="true" android:checkable="false"></item>
+    <item android:id="@+id/mnuShow65" android:titleCondensed="Show 6/5" android:title="Show 6/5" android:checked="true" android:checkable="false"></item>
+    <item android:id="@+id/mnuHelp" android:titleCondensed="Help" android:title="Help" android:checkable="false"></item>
+    <item android:id="@+id/mnuSetServerIP" android:titleCondensed="Server IP" android:title="Server IP" android:checkable="false"></item>
+    <item android:id="@+id/mnuClearDefault" android:titleCondensed="Clear Default" android:title="Clear Default" android:checkable="false"></item>
+</menu>

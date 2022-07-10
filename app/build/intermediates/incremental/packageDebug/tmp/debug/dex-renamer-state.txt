@@ -1,0 +1,4 @@
+#Mon Jul 04 22:50:11 IST 2022
+base.0=P\:\\Android\\AndroidStudioProjects\\VisualAQT.Remote\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

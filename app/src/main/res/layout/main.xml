@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/sv"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#FFFFFFFF"
+        android:gravity="center_horizontal" >
+
+        <LinearLayout
+            android:id="@+id/llImages"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#FFFF0000" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btnEnglish"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.25"
+                android:background="@drawable/btn_language"
+                android:tag="English"
+                android:text="Eng" />
+
+            <Button
+                android:id="@+id/btnGujarati"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.25"
+                android:background="@drawable/btn_language"
+                android:tag="Gujarati"
+                android:text="Guj" />
+
+            <Button
+                android:id="@+id/btnHindi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.25"
+                android:background="@drawable/btn_language"
+                android:tag="Hindi"
+                android:text="Hin" />
+
+            <Button
+                android:id="@+id/btnNumbers"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:layout_weight="0.25"
+                android:background="@drawable/btn_language"
+                android:tag="Numbers"
+                android:text="Num" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btnC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_horizontal"
+                android:background="@drawable/btn_language"
+                android:layout_weight="1"
+                android:tag="C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/btnE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:background="@drawable/btn_language"
+                android:layout_weight="1"
+                android:tag="E"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/btnDots"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:background="@drawable/btn_language"
+                android:layout_weight="1"
+                android:tag="Dots"
+                android:text="Dots" />
+
+            <Button
+                android:id="@+id/btnPediatric"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:background="@drawable/btn_language"
+                android:layout_weight="1"
+                android:tag="Pediatric"
+                android:text="Lea" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btnPrevLine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill"
+                android:background="@drawable/btn_navigation"
+                android:layout_weight="1"
+                android:tag="PrevLine"
+                android:text="Prev" />
+
+            <Button
+                android:id="@+id/btnNextLine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_navigation"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:tag="NextLine"
+                android:text="Next" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btnFirst"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_navigation"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:tag="FirstLine"
+                android:text="First" />
+
+            <Button
+                android:id="@+id/btnLast"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_navigation"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:tag="LastLine"
+                android:text="Last" />
+
+            <Button
+                android:id="@+id/btnContrastIncrease"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_others"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:tag="Contrast+"
+                android:text="Con. +" />
+
+            <Button
+                android:id="@+id/btnContrastDecrease"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_others"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:tag="Contrast-"
+                android:text="Con. -" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="fill"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btnMultiLine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_horizontal"
+                android:background="@drawable/btn_others"
+                android:layout_weight="1"
+                android:tag="MultiLine"
+                android:text="H.Mask" />
+
+            <Button
+                android:id="@+id/btnVerticalMask"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_others"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:tag="VerticalMask"
+                android:text="V.Mask" />
+
+            <Button
+                android:id="@+id/btnRandom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_others"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:tag="Random"
+                android:text="Random" />
+
+            <Button
+                android:id="@+id/btnRedGreen"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_others"
+                android:layout_gravity="fill"
+                android:layout_weight="1"
+                android:tag="RedGreen"
+                android:text="Red-Grn" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

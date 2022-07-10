@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, VisualAQT_RemoteActivity!</string>
+    <string name="app_name">VisualAQT_Remote</string>
+
+    <style name="ButtonFontStyle">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+</resources>
